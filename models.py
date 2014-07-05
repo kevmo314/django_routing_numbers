@@ -1,7 +1,7 @@
 import requests
 from datetime import date, datetime
-
 from django.db import models, transaction
+import sys
 
 class InstitutionManager(models.Manager):
 	def get_queryset(self):
